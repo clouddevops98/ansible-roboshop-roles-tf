@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.somayya.fun
-REDIS_HOST: redis.somayya.fun
-CATALOGUE_HOST: catalogue.somayya.fun
-CART_HOST: cart.somayya.fun
-MYSQL_HOST: mysql.somayya.fun
-USER_HOST: user.somayya.fun
-RABBITMQ_HOST: rabbitmq.somayya.fun
-SHIPPING_HOST: shipping.somayya.fun
-PAYMENT_HOST: payment.somayya.fun
+MONGODB_HOST: mongodb-{{ env }}.somayya.fun
+REDIS_HOST: redis-{{ env }}.somayya.fun
+CATALOGUE_HOST: catalogue-{{ env }}.somayya.fun
+CART_HOST: cart-{{ env }}.somayya.fun
+MYSQL_HOST: mysql-{{ env }}.somayya.fun
+USER_HOST: user-{{ env }}.somayya.fun
+RABBITMQ_HOST: rabbitmq-{{ env }}.somayya.fun
+SHIPPING_HOST: shipping-{{ env }}.somayya.fun
+PAYMENT_HOST: payment-{{ env }}.somayya.fun
