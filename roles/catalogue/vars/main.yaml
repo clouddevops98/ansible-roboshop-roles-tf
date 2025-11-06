@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.somayya.fun
+MONGODB_HOST: mongodb-{{ env }}.somayya.fun
