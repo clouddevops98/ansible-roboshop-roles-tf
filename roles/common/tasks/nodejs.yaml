@@ -9,9 +9,9 @@
     name: nodejs
     state: present
 
-- name: Install dependencies
+- name: install dependencies
   community.general.npm:
     path: /app
-  tags: 
+  tags:
   - deployment
 
